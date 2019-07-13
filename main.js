@@ -3,11 +3,11 @@ var objGalaxia1,objHumano1;
 function main(){
 	objGalaxia1=new Galaxia(1,"Perro",1000,50,50,"deepskyblue",1000,150,100,10);
 	
-	objHumano1=new Humano(1,"Pedro",13,35,30,"lightsalmon",50,50,50);
-	objHumano1.Agregar(new Cabeza(1,35,30,"lightsalmon",50,50,50));
-	objHumano1.Agregar(new Brazo(1,35,30,"lightsalmon",50,50,50));
-	objHumano1.Agregar(new Torax(1,35,30,"lightsalmon",50,50,50));
-	objHumano1.Agregar(new Pierna(1,35,30,"lightsalmon",50,50,50));
+	objHumano1=new Humano(1,"Pedro",13,25,30,"lightsalmon",50,50,50);
+	objHumano1.Agregar(new Cabeza(1,25,30,"lightsalmon",50,50,50));
+	objHumano1.Agregar(new Brazo(1,25,30,"lightsalmon",50,50,50));
+	objHumano1.Agregar(new Torax(1,25,30,"lightsalmon",50,50,50));
+	objHumano1.Agregar(new Pierna(1,25,30,"lightsalmon",50,50,50));
 
 		var myCanvas=document.getElementById("myCanvas");
 		var	context=myCanvas.getContext("2d");

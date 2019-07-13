@@ -36,8 +36,8 @@ class Figura
 
 		contextoDeDibujar.beginPath();
 		contextoDeDibujar.rect(this.X,this.Y,this.Ancho,this.Altura);
-		contextoDeDibujar.stroke();
+		//contextoDeDibujar.stroke();
 
-		console.log("dibujando contorno");
+		//console.log("dibujando contorno");
 	}
 }
